@@ -97,8 +97,8 @@ Juni–Juli 2026  →  DevSecOps-Projekt: Terraform + GitHub Actions auf Azure
 
 Ich bin auf der Suche nach einer **Werkstudentenstelle im Bereich DevSecOps oder Cloud Security** im Raum Duisburg / NRW oder remote.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profil-blue?logo=linkedin)](https://linkedin.com/in/DEIN-PROFIL)
-[![GitHub](https://img.shields.io/badge/GitHub-Portfolio-black?logo=github)](https://github.com/DEIN-USERNAME)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profil-blue?logo=linkedin)](https://www.linkedin.com/in/ludovic-tankeu-9b5361199)
+[![GitHub](https://img.shields.io/badge/GitHub-Portfolio-black?logo=github)](https://github.com/maxiludovic)
 
 ---
 
