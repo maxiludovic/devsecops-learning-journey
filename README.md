@@ -1,105 +1,66 @@
 # 🛡️ DevSecOps Learning Journey
 
-> Informatikstudent auf dem Weg zur ersten Werkstudentenstelle im Bereich DevSecOps / Cloud Security.  
-> Aktueller Standort: Duisburg, Deutschland.
+> Mein dokumentierter Lernweg in **Linux**, **IT-Sicherheit** und **Microsoft Azure**, als Informatikstudent an der Universität Duisburg-Essen.
 
 ---
 
-##  Ziel
+## 🎯 Ziel
 
-Dieses Repository dokumentiert meinen strukturierten Lernweg in den Bereichen **Linux**, **Microsoft Azure** und **DevSecOps**.  
-Ziel ist es, bis Winter 2026 folgende Zertifizierungen zu erlangen und praktische Projekterfahrung aufzubauen:
-
-- ✅ Microsoft Azure Fundamentals — **AZ-900**
-- 🔄 Microsoft Azure Administrator — **AZ-104** *(in Vorbereitung)*
-- 🔄 Linux-Administration *(OverTheWire Bandit + TryHackMe)*
+Praktische Erfahrung in Linux-Administration, Security-Hardening und Cloud aufbauen, mit dem nächsten Meilenstein **Microsoft Azure Administrator (AZ-104)**.
 
 ---
 
-## 📁 Repository-Struktur
+## ✅ Was ich bisher umgesetzt habe
 
-```
-📦 devsecops-learning-journey
-├── 📂 linux-notes/          # Notizen, Lösungen und Bash-Skripte
-│   ├── bandit-solutions/    # OverTheWire Bandit — Level-Lösungen mit Erklärungen
-│   ├── commands-cheatsheet/ # Wichtige Linux-Befehle mit Beispielen
-│   └── scripts/             # Erste eigene Bash-Skripte
-├── 📂 az900-notes/          # Lernnotizen für die AZ-900-Zertifizierung
-│   ├── cloud-concepts/      # IaaS, PaaS, SaaS, Shared Responsibility
-│   ├── azure-services/      # Übersicht der wichtigsten Azure-Dienste
-│   └── exam-prep/           # Karteikarten und Übungsfragen
-├── 📂 az104-notes/          # Lernnotizen für die AZ-104-Zertifizierung
-│   └── ...                  # (wird ab April 2026 befüllt)
-└── README.md
-```
+### 🐧 Linux & Security
+- **OverTheWire Bandit, Level 0–15 abgeschlossen**: `ssh`, `find`, `grep`, Dateirechte, Archive, Netzwerkdienste
+- **TryHackMe**: Linux Fundamentals und Cybersecurity-Grundlagen
+- **SSH-Hardening** auf eigener Ubuntu-Umgebung (WSL2)
+- **Firewall mit UFW**: Standardregeln, nur benötigte Ports freigegeben
+- **Automatisierung**: eigene Bash-Skripte und Cron-Jobs
+- **Log-Analyse**: Auswertung von Systemlogs
 
----
+### ☁️ Microsoft Azure
+- Grundlagen: Shared Responsibility Model, IaaS / PaaS / SaaS, CIA-Triade
+- **AZ-104 in Vorbereitung**: VMs, VNet, Storage, Microsoft Entra ID, RBAC
+- Lernmethode: zuerst Hands-on-Labs, Theorie dort, wo ich hängen bleibe
 
-## 📚 Lernfortschritt
-
-### 🐧 Linux — OverTheWire Bandit
-
-| Level | Status | Wichtigste Befehle |
-|-------|--------|--------------------|
-| Level 0 → 1 | ✅ Abgeschlossen | `ssh`, `cat` |
-| Level 1 → 2 | ✅ Abgeschlossen | `cat ./-` |
-| Level 2 → 3 | ✅ Abgeschlossen | Anführungszeichen bei Leerzeichen |
-| Level 3 → 4 | ✅ Abgeschlossen | `ls -a`, versteckte Dateien |
-| Level 4 → 5 | 🔄 In Bearbeitung | `file ./*` |
-| Level 5 → 6 | ⏳ Ausstehend | `find`, `-size`, `-executable` |
-
-### ☁️ Microsoft Azure — AZ-900
-
-| Thema | Status |
-|-------|--------|
-| Shared Responsibility Model | ✅ Abgeschlossen |
-| Cloud-Modelle (IaaS / PaaS / SaaS) | 🔄 In Bearbeitung |
-| Azure-Regionen und Verfügbarkeitszonen | ⏳ Ausstehend |
-| Azure Active Directory & RBAC | ⏳ Ausstehend |
-| Azure-Preismodell (CapEx vs. OpEx) | ⏳ Ausstehend |
+### 🧠 Lernmethode
+- **114 Anki-Karteikarten** zu Linux- und Azure-Begriffen
 
 ---
 
-## 🛠️ Verwendete Tools & Plattformen
+## 📁 Inhalt
 
-| Tool / Plattform | Zweck |
-|------------------|-------|
-| [OverTheWire Bandit](https://overthewire.org/wargames/bandit/) | Praktisches Linux-Lernen durch Capture-the-Flag |
-| [TryHackMe](https://tryhackme.com) | Linux Fundamentals & Cybersecurity-Grundlagen |
-| [Microsoft Learn](https://learn.microsoft.com/azure) | Offizielle AZ-900 und AZ-104 Lernpfade |
-| [John Savill (YouTube)](https://www.youtube.com/@NTFAQGuy) | Azure-Vertiefung und Prüfungsvorbereitung |
-| WSL2 (Windows Subsystem for Linux) | Lokale Linux-Übungsumgebung |
-| Anki | Karteikarten für Zertifizierungsbegriffe |
+| Ordner | Inhalt |
+|---|---|
+| [`scripts/`](scripts/) | Eigene Bash-Skripte: Variablen, Argumente, Schleifen |
+
+Weitere Ordner mit Notizen zu Bandit, Hardening und den AZ-104-Labs folgen schrittweise.
 
 ---
 
-## 🗓️ Lernplan
+## 🔗 Weitere Projekte
 
-```
-März 2026       →  Linux-Grundlagen + AZ-900 Vorbereitung
-April 2026      →  AZ-900 Prüfung + Beginn AZ-104
-Mai–Juni 2026   →  AZ-104 Vertiefung + erste Bash-Skripte
-Juni–Juli 2026  →  DevSecOps-Projekt: Terraform + GitHub Actions auf Azure
-```
+- [**Smart Inventory Assistant**](https://github.com/maxiludovic/smart-inventory-assistant): REST-API mit Python, Flask und SQLite
+- [**Galaxy Mission Explorer**](https://github.com/maxiludovic/GalaxyMissionExplorer): C#-Routenplaner auf einem Graphen
 
 ---
 
-## 📌 Nächste Schritte
+## 🗓️ Nächste Schritte
 
-- [ ] OverTheWire Bandit Level 5–10 abschließen
-- [ ] AZ-900 Modul „Cloud-Modelle" auf Microsoft Learn abschließen
-- [ ] Erstes eigenes Bash-Skript schreiben und hochladen
-- [ ] AZ-900 Prüfung anmelden (Pearson VUE)
+- [ ] AZ-104 Prüfung ablegen
+- [ ] Hands-on-Azure-Lab: App deployen, absichern und Zugriffsrechte verwalten
+- [ ] Notizen zu Bandit und SSH/UFW-Hardening hier dokumentieren
+- [ ] Erste Infrastruktur als Code (Terraform oder Bicep) mit GitHub Actions
 
 ---
 
 ## 📬 Kontakt
 
-Ich bin auf der Suche nach einer **Werkstudentenstelle im Bereich DevSecOps oder Cloud Security** im Raum Duisburg / NRW oder remote.
+Ich suche eine **Werkstudentenstelle** in Cloud, IT-Security oder Software Engineering, in NRW oder remote.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profil-blue?logo=linkedin)](https://www.linkedin.com/in/ludovic-tankeu-9b5361199)
 [![GitHub](https://img.shields.io/badge/GitHub-Portfolio-black?logo=github)](https://github.com/maxiludovic)
 
----
-
-*Dieses Repository wird regelmäßig aktualisiert — zuletzt am März 2025.*
+*Zuletzt aktualisiert: Oktober 2026*
